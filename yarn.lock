@@ -309,6 +309,26 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
+"@ngrx/effects@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/effects/-/effects-8.2.0.tgz#6aec4920d2b363c2c2b093c482e0bd2bb7ecdba2"
+  integrity sha512-eVho/YNHFDL3fo0Pb24GduU2OUHIEaUQjBBP/WlXO66QdqM9gXPJeEviWzA9RaC1tEu4sAZ0OYP1pP++CCn6Uw==
+
+"@ngrx/entity@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/entity/-/entity-8.2.0.tgz#0e605f7ed733f6fdec614bf2b8bac3f654db7579"
+  integrity sha512-xhAj28YLQvp2w8PCFYJjIPbpBvfBuIaqk2P/diRF+x3l59MrHmjq7JAbZcqyO1xcrQ8ZRVzgy/Jnl8rpTYjATA==
+
+"@ngrx/store-devtools@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store-devtools/-/store-devtools-8.2.0.tgz#32a29f20ee53da64bead63a84cf27b5d12d2d9a1"
+  integrity sha512-zNz9B641Jz8cGqaO6M7myXLkYDEUrdnLipzHuvn/dxbswxJrcaWsGUbb+5cCXCzbcoy2c8DKEHouFqPwKX86WQ==
+
+"@ngrx/store@^8.2.0":
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/store/-/store-8.2.0.tgz#8374fa803babdbf2a599240a8e546fa726d83edd"
+  integrity sha512-RTmg7WstMhxEIWxtcK1dC4i/3OQeS11ilosQjmZyiRcbRQzvBMZqQzNdpwb5yL6rEQ19Cka/QEWm2sd2USzHeA==
+
 "@ngtools/webpack@8.2.2":
   version "8.2.2"
   resolved "https://registry.yarnpkg.com/@ngtools/webpack/-/webpack-8.2.2.tgz#61ba246ba4aff5e03daa0abea76947647b0da25e"
@@ -4410,6 +4430,13 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+ngrx-data@^6.1.0-beta.3:
+  version "6.1.0-beta.3"
+  resolved "https://registry.yarnpkg.com/ngrx-data/-/ngrx-data-6.1.0-beta.3.tgz#39444a65913c4526f9484a6247fa1f92dd8f49b3"
+  integrity sha512-3drHNF7yce+DVw81/3kgeQHT1LMx2kMJEHGxQ2pUwc4sK6LUBJAzGP9YTKH3i3cYF8kH+noFCVgXH0S2ejjlWA==
+  dependencies:
+    tslib "^1.9.0"
 
 nice-try@^1.0.4:
   version "1.0.5"

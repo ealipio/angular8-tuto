@@ -1,0 +1,18 @@
+import { NgModule } from '@angular/core';
+import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { DefaultDataServiceConfig, NgrxDataModule } from 'ngrx-data';
+
+import { entityConfig } from './entity-metadata';
+import { environment } from '../../environments/environment';
+
+@NgModule({
+  imports: [
+    StoreModule.forRoot({}),
+    EffectsModule.forRoot([]),
+    NgrxDataModule.forRoot(entityConfig),
+    environment.production ? [] : StoreDevtoolsModule.instrument()
+  ]
+})
+export class AppStoreModule {}
