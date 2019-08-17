@@ -6,6 +6,7 @@ import { DefaultDataServiceConfig, NgrxDataModule } from 'ngrx-data';
 
 import { entityConfig } from './entity-metadata';
 import { environment } from '../../environments/environment';
+import { NgrxDataToastService } from './ngrx-data-toast.service';
 
 @NgModule({
   imports: [
@@ -15,4 +16,6 @@ import { environment } from '../../environments/environment';
     environment.production ? [] : StoreDevtoolsModule.instrument()
   ]
 })
-export class AppStoreModule {}
+export class AppStoreModule {
+  constructor(toastService: NgrxDataToastService) {}
+}
