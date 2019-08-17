@@ -9,6 +9,7 @@ import {
   MatSnackBarModule,
   MatToolbarModule,
   MatTooltipModule,
+  MatSpinner,
   MatDialogModule
 } from '@angular/material';
 
@@ -22,6 +23,7 @@ const modules = [
   MatSlideToggleModule,
   MatSnackBarModule,
   MatToolbarModule,
+  MatSpinner,
   MatTooltipModule
 ];
 @NgModule({
