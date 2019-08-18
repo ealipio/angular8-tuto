@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  angular-ngrx-data:
+    image: eisson/angular-ngrx-data
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3001:3001
